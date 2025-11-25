@@ -263,6 +263,15 @@ button:disabled {
   background-color: var(--highAccent);
 }
 
+.bgLight {
+  background-color: var(--background);
+  color: var(--text) !important;
+}
+
+.bgLight * {
+  color: var(--text) !important;
+}
+
 select {
   font-weight: 400;
   display: flex;
