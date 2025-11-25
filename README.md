@@ -1,8 +1,10 @@
 # The Transform Creative starter boilerplate
 ## Steps to get set up:
-1. <code>git clone --bare https://github.com/idrury/react-starter.git</code>
-2. <code>cd react-starter.git</code>
-3. <code>git push [new]</code>
-4. Naviagte to a new folder and run <code>git clone [new]</code>
-4. <code>npm i</code>
-5. navigate to package-lock amd package and change name to [new]
+1. <code>git clone <EXISTING_URL> <NEW_NAME></code>
+2. <code>cd <NEW_NAME></code>
+3. <code>rm -rf .git (or manually delete .git folder)</code>
+4. <code>git init</code>
+5. <code>git add .</code>
+6. <code>git commit -a -m "Initial commit"</code>
+7. <code>git remote add origin https://github.com/idrury/name.git</code>
+8. <code>git push --set-upstream origin master</code>
